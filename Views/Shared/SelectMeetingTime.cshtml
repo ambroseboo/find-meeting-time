@@ -1,0 +1,24 @@
+@model SelectMeetingTimeModel
+
+@{
+    ViewData["Title"] = "Select Meeting Time";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Here are all available meeting times</h1>
+    @* <p>Please select one to send a meeting invite to all your participants.</p> *@
+
+    <table class="table">
+        <thead>
+            <td>Start Time</td>
+            <td>End Time</td>
+        </thead>
+        @foreach (var suggestion in Model.MeetingTimeSuggestions) {
+            <tbody>
+                <td>@suggestion.MeetingTimeSlot.Start.DateTime</td>
+                <td>@suggestion.MeetingTimeSlot.End.DateTime</td>
+            </tbody>
+        }
+    </table>
+</div>
+
