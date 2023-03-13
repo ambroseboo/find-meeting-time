@@ -8,3 +8,6 @@ This web application aims to remedy the pain point of scheduling meetings with c
 
 This application aims to take a list of emails (people) and a time period (how long you want the meeting to be) and generate available meeting timeslots (where everyone is available) in the user-provided time period. 
 - It does so by using Microsoft Graph API to query for everyone's calendars, and seeking a timeslot where everyone does not have an ongoing meeting.
+
+###Future Features
+- Select meeting time and send meeting invite to all attendees.
