@@ -11,3 +11,5 @@ This application aims to take a list of emails (people) and a time period (how l
 
 ### Future Features
 - Select meeting time and send meeting invite to all attendees.
+
+[![Hack Together: Microsoft Graph and .NET](https://img.shields.io/badge/Microsoft%20-Hack--Together-orange?style=for-the-badge&logo=microsoft)](https://github.com/microsoft/hack-together)
