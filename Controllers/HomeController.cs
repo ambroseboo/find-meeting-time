@@ -118,10 +118,6 @@ namespace active_directory_aspnetcore_webapp_openidconnect_v2.Controllers
             return View();
         }
 
-        public IActionResult Privacy() {
-            return View();
-        }
-
         [AllowAnonymous]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error() {
