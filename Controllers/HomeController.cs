@@ -124,6 +124,7 @@ namespace active_directory_aspnetcore_webapp_openidconnect_v2.Controllers
 
 
             if (!String.IsNullOrEmpty(result.EmptySuggestionsReason)) {
+                Console.WriteLine(result.EmptySuggestionsReason);
                 return RedirectToAction("NoMeetingTime");
             }
 
@@ -144,9 +145,6 @@ namespace active_directory_aspnetcore_webapp_openidconnect_v2.Controllers
         public async Task<IActionResult> Select(string id, string id2) {
             TempData["start"] = id.Replace("%2F", "/");
             TempData["end"] = id2.Replace("%2F", "/");
-
-            Console.WriteLine(TempData["start"]);
-            Console.WriteLine(TempData["end"]);
 
             // get attendees as list of Attendee
             var attendees = JsonConvert.DeserializeObject<System.Collections.Generic.List<AttendeeBase>>((string)TempData["attendees"]);
@@ -183,7 +181,6 @@ namespace active_directory_aspnetcore_webapp_openidconnect_v2.Controllers
             };
 
             string json = JsonConvert.SerializeObject(requestBody);
-            Console.WriteLine(json);
             StringContent httpContent = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
             var path = $"https://graph.microsoft.com/v1.0/users/{TempData["UserPrincipalName"]}/calendar/events";
