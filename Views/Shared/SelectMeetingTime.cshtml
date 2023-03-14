@@ -6,10 +6,10 @@
 
 <div class="text-center">
     <h1 class="display-4">Here are all available meeting times</h1>
-    @* <p>Please select one to send a meeting invite to all your participants.</p> *@
+    <p>Please select one to send a meeting invite to all your participants.</p>
 
     <table class="table">
-        <thead>
+        <thead>s
             <td>Start Time</td>
             <td>End Time</td>
         </thead>
@@ -17,6 +17,7 @@
             <tbody>
                 <td>@suggestion.MeetingTimeSlot.Start.DateTime</td>
                 <td>@suggestion.MeetingTimeSlot.End.DateTime</td>
+                <td><a asp-action="Select" asp-route-id="@suggestion.MeetingTimeSlot.Start.DateTime" asp-route-id2="@suggestion.MeetingTimeSlot.End.DateTime">Select</a></td>
             </tbody>
         }
     </table>

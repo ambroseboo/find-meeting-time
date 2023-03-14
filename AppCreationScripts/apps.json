@@ -24,7 +24,7 @@
             {
               "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
               "type": "Scope",
-              "x-ms-name": "user.read"
+              "x-ms-name": "Calendars.ReadWrite.Shared"
             }
           ]
         }
@@ -33,11 +33,11 @@
         {
           "settingFile": "/appsettings.json",
           "replaceTokens": {
-            "appId": "Enter_the_Application_Id_here",
+            "appId": "b8f4001d-83a5-40c5-9d74-706d5c26aa25",
             "tenantId": "common",
             "authorityEndpointHost": "https://login.microsoftonline.com/",
             "msgraphEndpointHost": "https://graph.microsoft.com/",
-            "clientSecret": "Enter_the_Client_Secret_Here"
+            "clientSecret": "tXe8Q~R9yfr68iq25zhLFwLpBUQhkiA1V-CvBb-7"
           }
         }
       ]	

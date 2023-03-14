@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Meeting Selected";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Your meeting invite has been sent</h1>
+    <p>
+        <h2>Meeting details:</h2>
+    </p>
+
+    <table class="table">
+        <tr>
+            <th class="col1"> </th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Subject</td>
+            <td>@TempData["subject"]</td>
+        </tr>
+        <tr>
+            <td>Body</td>
+            <td>@TempData["body"]</td>
+        </tr>
+        <tr>
+            <td>Start Date and Time</td>
+            <td>@TempData["start"]</td>
+        </tr>
+        <tr>
+            <td>End Date and Time</td>
+            <td>@TempData["end"]</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>@TempData["location"]</td>
+        </tr>
+        <tr>
+            <td>Attendees</td>
+            <td>@TempData["attendeesString"]</td>
+        </tr>
+    </table>
+</div>
+
+<style>
+    .col1 {
+        width: 25%;
+    }
+</style>
