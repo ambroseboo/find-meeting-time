@@ -11,7 +11,7 @@ This application aims to take a list of emails (people) and a meeting duration a
 
 ### Additional Features
 - Select meeting time and send meeting invite to all attendees.
-- 
+
 You can try it out on this [webpage](https://find-meeting-time.onrender.com/)! Do note that you need to log in with a Microsoft account and grant some permissions first.
 
 Here is a [video](https://user-images.githubusercontent.com/59088254/225082689-9d6b4e95-69e4-4cbd-9944-b0c254b8d679.mp4) showcasing the functionality of this web application
