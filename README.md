@@ -12,4 +12,6 @@ This application aims to take a list of emails (people) and a meeting duration a
 ### Additional Features
 - Select meeting time and send meeting invite to all attendees.
 
+Here is a [video](https://user-images.githubusercontent.com/59088254/225082689-9d6b4e95-69e4-4cbd-9944-b0c254b8d679.mp4) showcasing the functionality of this web application
+
 [![Hack Together: Microsoft Graph and .NET](https://img.shields.io/badge/Microsoft%20-Hack--Together-orange?style=for-the-badge&logo=microsoft)](https://github.com/microsoft/hack-together)
