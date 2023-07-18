@@ -22,7 +22,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://find-meeting-time.onrender.com/"
+      "applicationUrl": "https://localhost:44321/"
     }
   }
 }

@@ -16,9 +16,9 @@
       "Id": "webApp",
       "Name": "WebApp",
       "Kind": "WebApp",
-      "HomePage": "https://find-meeting-time.onrender.com/",
-      "ReplyUrls": "https://find-meeting-time.onrender.com/, https://find-meeting-time.onrender.com/signin-oidc",
-      "LogoutUrl": "https://find-meeting-time.onrender.com/signout-oidc",
+      "HomePage": "https://localhost:44321/",
+      "ReplyUrls": "https://localhost:44321/, https://localhost:44321/signin-oidc",
+      "LogoutUrl": "https://localhost:44321/signout-oidc",
       "PasswordCredentials": "Auto",
       "RequiredResourcesAccess": [
         {
