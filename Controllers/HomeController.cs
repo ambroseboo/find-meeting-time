@@ -26,7 +26,7 @@ namespace active_directory_aspnetcore_webapp_openidconnect_v2.Controllers
         // Values from app registration
         private static readonly string tenant_id = "dc6d3122-6e4f-4b41-817a-023f598a7169";
         private static readonly string client_id = "b8f4001d-83a5-40c5-9d74-706d5c26aa25";
-        private static readonly string client_secret = "tXe8Q~R9yfr68iq25zhLFwLpBUQhkiA1V-CvBb-7";
+        private static readonly string client_secret = "I4.8Q~HS.KvwJXDqPqCUnVTRgV_gOkVaPqy6Oanq";
 
         // Get bearer token
         private readonly string baseAddress = $"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token";
